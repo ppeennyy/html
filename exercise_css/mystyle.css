@@ -1,44 +1,63 @@
-body {background-color:lightgrey;}
-h1   {color:blue;text-align:center}
-p    {color:green;}
+body {
+	background-color: orange
+}
+
+h1 {
+	color: black;
+	text-align: center;
+	font-size: 100px
+}
+
+p {
+	color: green
+}
+
 body {
 	background-image: url("../Image/Conan_handstand.png");
 	background-size: 300px 500px;
-    background-repeat: no-repeat;
-    background-position: right top;
-    background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-attachment: fixed
 }
+
 #p01 {
-    border: 10px solid grey;
-    padding: 50px;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-right: 150px;
-    margin-left: 80px;
+	border: 15px solid;
+	border-color: #90F0EB blue green #dd22ff;
+	padding-left: 110px;
+	padding-top: 20px;
+	padding-right: 5px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	margin-right: 300px;
+	margin-left: 200px;
+	font-size: 30px;
+	font: verdana;
+	color: brown;
 }
+
 #image1 {
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-right: 300px;
-    margin-left: 80px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	margin-right: 300px;
+	margin-left: 80px
 }
 
 ul#menu {
-    padding: 0;
+	padding: 0
 }
 
 ul#menu li {
-    display: inline;
+	display: inline
 }
 
 ul#menu li a {
-    background-color: black;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 4px 4px 0 0;
+	background-color: black;
+	color: white;
+	padding: 10px 20px;
+	text-decoration: none;
+	border-radius: 4px 4px 0 0
 }
 
 ul#menu li a:hover {
-    background-color: orange;
+	background-color: orange
 }
