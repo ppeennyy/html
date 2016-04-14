@@ -1,13 +1,25 @@
 body {background-color:lightgrey;}
-h1   {color:blue;}
+h1   {color:blue;text-align:center}
 p    {color:green;}
-
+body {
+	background-image: url("../Image/Conan_handstand.png");
+	background-size: 300px 500px;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+}
 #p01 {
     border: 10px solid grey;
     padding: 50px;
     margin-top: 100px;
     margin-bottom: 100px;
     margin-right: 150px;
+    margin-left: 80px;
+}
+#image1 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 300px;
     margin-left: 80px;
 }
 
